@@ -30,8 +30,6 @@ public class MainActivity extends Activity {
                     }
                 })
                 .setTitle(R.string.new_rate_dialog_title)
-                .setTextLater(R.string.new_rate_dialog_later)
-                .setTextNever(R.string.new_rate_dialog_never)
                 .setTextRateNow(R.string.new_rate_dialog_ok)
                 .monitor();
 
