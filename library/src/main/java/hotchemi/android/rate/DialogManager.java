@@ -1,4 +1,4 @@
-package hotchemi.android.rate;
+package dahay01.rating;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -7,11 +7,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.View;
 
-import static hotchemi.android.rate.IntentHelper.createIntentForAmazonAppstore;
-import static hotchemi.android.rate.IntentHelper.createIntentForGooglePlay;
-import static hotchemi.android.rate.PreferenceHelper.setAgreeShowDialog;
-import static hotchemi.android.rate.PreferenceHelper.setRemindInterval;
-import static hotchemi.android.rate.Utils.getDialogBuilder;
+import static dahay01.rating.IntentHelper.createIntentForAmazonAppstore;
+import static dahay01.rating.IntentHelper.createIntentForGooglePlay;
+import static dahay01.rating.PreferenceHelper.setAgreeShowDialog;
+import static dahay01.rating.PreferenceHelper.setRemindInterval;
+import static dahay01.rating.Utils.getDialogBuilder;
 
 final class DialogManager {
 
