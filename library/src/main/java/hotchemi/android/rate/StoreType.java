@@ -1,4 +1,4 @@
-package hotchemi.android.rate;
+package dahay01.rating;
 
 public enum StoreType {
     GOOGLEPLAY,
