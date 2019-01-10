@@ -1,10 +1,10 @@
-package hotchemi.android.rate;
+package dahay01.rating;
 
 import android.net.Uri;
 import android.test.AndroidTestCase;
 
 /**
- * Unit test for {@link hotchemi.android.rate.UriHelper}
+ * Unit test for {@link dahay01.rating.UriHelper}
  */
 public class UriHelperTest extends AndroidTestCase {
 
@@ -20,7 +20,7 @@ public class UriHelperTest extends AndroidTestCase {
             assertNull(uri);
         }
         {
-            final String packageName = "hotchemi.android.rate";
+            final String packageName = "dahay01.rating";
             Uri uri = UriHelper.getGooglePlay(packageName);
             assertEquals(uri.toString(), GOOGLE_PLAY + packageName);
         }
