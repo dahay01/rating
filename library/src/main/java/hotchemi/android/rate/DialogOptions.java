@@ -1,4 +1,4 @@
-package hotchemi.android.rate;
+package dahay01.rating;
 
 import android.content.Context;
 import android.view.View;
