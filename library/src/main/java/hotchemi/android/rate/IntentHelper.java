@@ -1,11 +1,11 @@
-package hotchemi.android.rate;
+package dahay01.rating;
 
 import android.content.Context;
 import android.content.Intent;
 
-import static hotchemi.android.rate.UriHelper.getGooglePlay;
-import static hotchemi.android.rate.UriHelper.getAmazonAppstore;
-import static hotchemi.android.rate.UriHelper.isPackageExists;
+import static dahay01.rating.UriHelper.getGooglePlay;
+import static dahay01.rating.UriHelper.getAmazonAppstore;
+import static dahay01.rating.UriHelper.isPackageExists;
 
 final class IntentHelper {
 
