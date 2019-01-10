@@ -1,4 +1,4 @@
-package hotchemi.android.rate;
+package dahay01.rating;
 
 import android.app.Activity;
 import android.content.Context;
@@ -6,13 +6,13 @@ import android.view.View;
 
 import java.util.Date;
 
-import static hotchemi.android.rate.DialogManager.create;
-import static hotchemi.android.rate.PreferenceHelper.getInstallDate;
-import static hotchemi.android.rate.PreferenceHelper.getIsAgreeShowDialog;
-import static hotchemi.android.rate.PreferenceHelper.getLaunchTimes;
-import static hotchemi.android.rate.PreferenceHelper.getRemindInterval;
-import static hotchemi.android.rate.PreferenceHelper.isFirstLaunch;
-import static hotchemi.android.rate.PreferenceHelper.setInstallDate;
+import static dahay01.rating.DialogManager.create;
+import static dahay01.rating.PreferenceHelper.getInstallDate;
+import static dahay01.rating.PreferenceHelper.getIsAgreeShowDialog;
+import static dahay01.rating.PreferenceHelper.getLaunchTimes;
+import static dahay01.rating.PreferenceHelper.getRemindInterval;
+import static dahay01.rating.PreferenceHelper.isFirstLaunch;
+import static dahay01.rating.PreferenceHelper.setInstallDate;
 
 public final class AppRate {
 
