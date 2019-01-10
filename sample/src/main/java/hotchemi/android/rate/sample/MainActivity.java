@@ -1,13 +1,13 @@
 
-package hotchemi.android.rate.sample;
+package dahay01.rating.sample;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-import hotchemi.android.rate.AppRate;
-import hotchemi.android.rate.OnClickButtonListener;
-import hotchemi.android.rate.StoreType;
+import dahay01.rating.rate.AppRate;
+import dahay01.rating.OnClickButtonListener;
+import dahay01.rating.StoreType;
 
 public class MainActivity extends Activity {
 
