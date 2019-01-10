@@ -145,7 +145,15 @@ public final class AppRate {
         return this;
     }
 
-    
+    public AppRate setTextNever(int resourceId) {
+        options.setTextNegativeResId(resourceId);
+        return this;
+    }
+
+    public AppRate setTextNever(String negativeText) {
+        options.setNegativeText(negativeText);
+        return this;
+    }
 
     public AppRate setCancelable(boolean cancelable) {
         options.setCancelable(cancelable);
